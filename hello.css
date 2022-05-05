@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+.nav{
+	float: right;
+	margin-top: 10px;
+	margin-right:80px;
+}
+.nav ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav ul li{
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 2rem;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #ffff;
+	font-family: Arial;
+	font-weight: bold;
+}
+.nav ul li a:link{
+	color: white;
+}
+.nav ul li a:visited{
+	color: white;
+}
+.nav ul li a:hover{
+	color: pink;
+}
+.nav ul li a:active{
+	color: yellowgreen;
+}
+.head{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+	margin-left: 100px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight:400;
+	transition: 0.4s ease;
+}
+.head h1{
+	color: #252839;
+	font-size: 2rem;
+	position: absolute;
+}
+.head h1:before{
+	content: 'QUICKFIX.....';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-right: 4px solid #17fefe;
+	overflow: hidden;
+	color: #17feff;
+	animation: load 4s linear infinite;
+
+}
+@keyframes load
+{
+	0%,10%,100%{
+		width: 0;
+	}
+	60%,80%{
+		width: 100%;
+	}
+}
+
+.head1 h1{
+	color: #252839;
+	font-size: 2rem;
+	position: absolute;
+}
+.head1 h1:before{
+	content: 'Turn on the music.Turn down the bullshit';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-right: 4px solid #17fefe;
+	overflow: hidden;
+	color: #17feff;
+	animation: load 4s linear infinite;
+
+}
+@keyframes load
+{
+	0%,10%,100%{
+		width: 0;
+	}
+	60%,80%{
+		width: 100%;
+	}
+}
+.image{
+	width: 100%;
+	height: 100vh;
+	background: url(https://wallpapersmug.com/download/3840x2160/612c46/girl-dream-music-guitar-night-city-4k.jpg);
+	background-position: center;
+	background-size:cover;
+	overflow: hidden;
+	color:#fff;
+}
+.content{
+	background-color:rgba(0, 0, 0, 0.7) ;
+	max-width: 450px;
+	padding: 50px 40px;
+	margin-top:250px;
+	margin-left: 890px;
+}
+.content button{
+	cursor:wait;
+}
+.movies{
+	display: inline-block;
+	height:10px;
+	padding: 2px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	text-align: center;
+	color: #666;
+	margin: 50px;
+	cursor: pointer;
+	padding-left: 2px;
+}
+.songs h1{
+	text-align: center;
+	margin-top:20px;
+}
+@media(max-width: 641px){
+	.image{
+		width: 100%;
+	}
+}
+@media(max-width: 961px){
+	.image{
+		width:100%;
+	}
+}
+@media(max-width: 1000px){
+	.image{
+		width: 100%;
+	}
+}
+.card{
+	width:100%;
+	height: 260px;
+	background-color:;
+	border: 5px solid;
+	background-image: linear-gradient(#ff512f,#dd2476,#1c64ff)1;
+	animation:rotate 2.5s ease infinite;
+}
+@keyframes rotate{
+	50%{
+		border-image: 
+		linear-gradient(360deg,#ff512f,#dd2476,#1c64ff)1;
+	}
+}
